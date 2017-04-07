@@ -1,8 +1,8 @@
-A Photo Database Interface
+Access Photo Database Interface
 =============
 Tool to read & import lists of Photo Metadata (*.txt) to MS Access and perform simple Time-Aggregation, Conversion and Export tasks.
 
-**A Photo Database Interface**, a tool that helps importing lists of photo metadata to Access for simple analysis and conversion tasks. Tested for up to 5M photo entries.
+**A Photo Database Interface** that helps importing lists of photo metadata to Access for simple analysis and conversion tasks. Tested for up to 5M photo entries.
 
 ![photo Database Interface](interface.png?raw=true)
 
@@ -60,6 +60,11 @@ The following code counts and aggregates unique users (or photos) per day and ex
 * todo: future goals
 
 ## Built With
+This project includes and makes use of several other projects/libraries/frameworks:
+
+>[*RegExprReplace*](http://www.experts-exchange.com/articles/Programming/Languages/Visual_Basic/Using-Regular-Expressions-in-Visual-Basic-for-Applications-and-Visual-Basic-6.html) - by Patrick G. Matthews
+>> Function for using Regular Expressions to parse a string, and replace parts of the string matching the specified pattern with another string.
+>> Optionally used to clean photo metadata
 
 ## License
 
@@ -67,7 +72,9 @@ GNU GPLv3
 
 ## Changelog
 
-*2017-04-07: A Photo Database Interface V4-1
-	*Initial commit
+* 2017-04-07: [Access Photo Database Interface V4-1](importdata_templ_V4-1.accdb)
+
+	* Initial commit
+	* Formatted code and added readme
 
 [//]: # (Readme formatting based on https://gist.github.com/PurpleBooth/109311bb0361f32d87a2) 
