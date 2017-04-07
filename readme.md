@@ -10,6 +10,13 @@ Tool to read & import lists of Photo Metadata (*.txt) to MS Access and perform s
 
 Automation of reoccuring photo metadata processing tasks for testing & visualization. This tool is also used to calculate Tag Statistics for the generation of [tag maps](https://www.flickr.com/photos/64974314@N08/albums/72157628868173205).
 
+Main features:
+* importing clipped data files from [ClipGeo](https://github.com/Sieboldianus/ClipGeo)
+* cleaning up tag data
+* exporting an ArcGIS compatible database (*.mdb)
+* time analysis (month, daytime, year)
+* preparing taglist (*.dbf) for clustering tag data with [ArcGIS-Tag-Maps-Tools](https://github.com/Sieboldianus/ArcGIS-Tag-Maps-Tools)
+
 ## Code Example
 
 The following code counts and aggregates unique users (or photos) per day and exports list into a new table. This code can be used as a template for preparing other reoccuring MySQL queries.
